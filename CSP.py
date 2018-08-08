@@ -20,8 +20,6 @@ class cspSolver(object):
     def ac3(self):
         assert(self.nodes.keys() == self.edges.keys())
         # actually a set but called queue by tradition
-        # print([node for node in self.nodes.keys()])
-        # print(self.edges.values())
         queue = {((node, edge[0]), edge[1]) for node in self.nodes.keys() for edge in self.edges[node]}
 
         return queue
