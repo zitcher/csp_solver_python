@@ -1,4 +1,4 @@
-# csp_solver_python
+# csp_solver_pythonWIP
 CSP solver given binary constraints
 
 # Sudoku
